@@ -2,6 +2,10 @@ import re,sys,time,urllib
 from StringIO import StringIO
 from urlparse import urlparse
 found=[]
+try:
+	found=open('found.txt','a').read().splitlines()
+except Exception,e:
+	pass
 foundh=[]
 try:
 	import pycurl
