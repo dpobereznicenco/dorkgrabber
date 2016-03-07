@@ -92,11 +92,6 @@ if len(sys.argv)>2:
 
 s=scanner()
 
-
-
-
-got_image=False
-add=0
 for i in throw:
 	print "[+] Page "+str(i)
 	rez=s.request("http://www.google.com/search?q="+dork+"&filter=0&start="+str(i*10))
