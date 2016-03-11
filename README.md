@@ -6,11 +6,14 @@ This tool does not bypass the captcha but grabs the link from google and you onl
 How to use:
 
 python dorkgrabber.py dork
+
+
 python dorkgrabber.py site:.mywebsite.com
 
 This will scrape the 1 to 100 page.
 
 python dorkgrabber.py dork start-stop
+
 python dorkgrabber.py site:.mywebsite.com 10-200
 
 This will scrape the 2 to 200 page.
